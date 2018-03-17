@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_color_dark"
+    android:orientation="vertical"
+    tools:context="com.example.deepamgoel.devrantclone.MainActivity">
+
+    <include
+        android:id="@+id/header"
+        layout="@layout/header"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/footer"
+        android:layout_below="@id/header">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <include layout="@layout/rant1" />
+
+            <include layout="@layout/rant2" />
+
+            <include layout="@layout/rant1" />
+
+            <include layout="@layout/rant1" />
+
+            <include layout="@layout/rant2" />
+
+            <include layout="@layout/rant1" />
+
+            <include layout="@layout/rant3" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+    <View
+        android:id="@+id/view"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_above="@id/footer"
+        android:background="@color/background_color_light" />
+
+    <ImageView
+        android:layout_width="@dimen/icon_width"
+        android:layout_height="@dimen/icon_height"
+        android:layout_above="@id/footer"
+        android:layout_centerInParent="true"
+        android:layout_margin="@dimen/general_margin"
+        android:contentDescription="@string/New" />
+
+    <include
+        android:id="@+id/footer"
+        layout="@layout/footer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true" />
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/floatingActionButton"
+        android:layout_width="@dimen/floating_button_width"
+        android:layout_height="@dimen/floating_button_height"
+        android:layout_above="@id/footer"
+        android:layout_centerInParent="true"
+        android:layout_margin="@dimen/general_margin"
+        android:scaleType="center"
+        android:src="@drawable/plus"
+        app:backgroundTint="@color/floating_button" />
+
+</RelativeLayout>

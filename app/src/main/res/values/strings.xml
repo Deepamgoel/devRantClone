@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">devRant Clone</string>
+    <string name="devRant">devRant</string>
+    <string name="stories">Stories</string>
+    <string name="collabs">Collabs</string>
+    <string name="notifs">Notifs</string>
+    <string name="more">More</string>
+    <string name="sort">Sort</string>
+    <string name="New">New</string>
+    <string name="comment">Comment</string>
+    <string name="lorem">Lorem ipsum dolor sit amet, eos impedit iudicabit ad, ea has quas partem. Mel eius philosophia ex. Ut aperiri adipiscing mea, id molestiae pertinacia definiebas vix. Accusam consectetuer concludaturque pro ei. Vel vero tibique splendide et. Ea sea modo doctus aperiri, cetero laoreet recusabo at mea… [read more]</string>
+    <string name="lorem_short">Lorem ipsum dolor sit amet, eos impedit iudicabit ad, ea has quas partem. Mel eius philosophia ex. Ut aperiri adipiscing mea, id molestiae pertinacia definiebas vix. Accusam consectetuer concludaturque pro ei… [read more]</string>
+    <string name="lorem_shit">Text not always need to be Lorem Ipsum!</string>
+    <string name="likes">120</string>
+    <string name="likes_image">420</string>
+    <string name="likes_image_srsly">999</string>
+    <string name="tag">tag 1, tag 2</string>
+    <string name="tag_srsly">Yaaa ! I know!</string>
+    <string name="comment_no">75</string>
+    <string name="comment_no_image">216</string>
+    <string name="comment_no_image_srsly">999</string>
+</resources>

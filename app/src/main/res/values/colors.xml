@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="background_color_light">#54556E</color>
+    <color name="background_color_dark">#40415A</color>
+    <color name="icon_background">#AAAAB8</color>
+    <color name="floating_button">#D55161</color>
+</resources>
