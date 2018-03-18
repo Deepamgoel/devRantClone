@@ -40,6 +40,14 @@
 
             <include layout="@layout/rant3" />
 
+            <include layout="@layout/rant1" />
+
+            <include layout="@layout/rant2" />
+
+            <include layout="@layout/rant1" />
+
+            <include layout="@layout/rant3" />
+
         </LinearLayout>
 
     </ScrollView>
@@ -76,5 +84,6 @@
         android:scaleType="center"
         android:src="@drawable/plus"
         app:backgroundTint="@color/floating_button" />
+
 
 </RelativeLayout>

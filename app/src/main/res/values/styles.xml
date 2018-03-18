@@ -1,5 +1,6 @@
 <resources>
 
-    <!-- Base application theme. -->
-
+    <style name="FlashScreen" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:statusBarColor">#53556C</item>
+    </style>
 </resources>
