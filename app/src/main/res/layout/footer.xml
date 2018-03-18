@@ -19,7 +19,7 @@
             android:layout_height="3dp"
             android:layout_marginLeft="@dimen/general_margin"
             android:layout_marginRight="@dimen/general_margin"
-            android:background="@android:color/white" />
+            android:background="@drawable/rounder_border" />
 
         <ImageView
             android:layout_width="@dimen/icon_width"
